@@ -58,6 +58,12 @@
                 margin-top: 0px;
                 justify-content: center;
             }
+            .footer1{
+                background-color: black;
+            }
+            article{
+                padding: 3rem;
+            }
             @media only screen and (min-width:768px){
                 .container1{
                 background-image: url("./img/tm-astro-bg.jpg");
@@ -101,8 +107,10 @@
                 }
                 article{
                     display: grid;
-                    grid-template-columns: 60% 40%;
-                    width: 70%;
+                    grid-template-columns: 40% 60%;
+                    justify-content: center;
+                    width: 90%;
+                    margin-left: 3rem;
                 }
                 .dot-styling{
                     width: 10px;
@@ -116,6 +124,7 @@
                     display: flex;
                     padding: 10px;
                     justify-content: space-between;
+                    background-color: black;
                 }
                 .ifr1{
                     width: 100%;
@@ -190,7 +199,7 @@
 
         <article>
             <div class="p4art1">
-                    <form action="">
+                    <form action="" autocomplete="off">
                         <label for="name" id="color-white">Name</label> <br>
                         <input type="text" id="name" class="name1"> <br> <br>
                         <label for="email" id="color-white">Email</label> <br>
