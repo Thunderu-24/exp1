@@ -11,6 +11,7 @@
                 background-size: cover;
                 height: 100vh;
                 overflow: scroll;
+                overflow-x: hidden ;
             }
             #color-white{
                 color: white;
@@ -22,7 +23,7 @@
                 color: rgb(5, 244, 5);
             }
             .name1{
-                width: 20rem;
+                width: 100%;
                 background-color: transparent;
                 border-color: transparent;
                 border-bottom: 1px solid white;
@@ -39,21 +40,31 @@
                 float: inline-end;
             }
             .p4art1{
-                display: flex;
-                justify-content: center;
+                /* display: flex; */
+                /* justify-content: center; */
+                /* margin: 10px; */
+                width: 100%;
+                box-sizing: border-box;
+                /* background-color: red; */
             }
             .p4art123{
                 margin-bottom: 0px;
+                margin-top: 3rem;
             }
             .p4art2{
-                margin: 20px;
+                /* margin: 10px; */
+                /* background-color: red; */
+                width: 100%;
+                /* margin: 20px; */
                 /* text-align: justify; */
-                padding: 20px;
+                /* padding: 20px; */
                 /* background-color: rgba(50, 49, 49, 0.512); */
             }
             .ifr1{
-                width: 20rem;
-                margin: 20px;
+                height: 20rem;
+                width: 100%;
+                /* width: 20rem; */
+                /* margin: 20px; */
             }
             .ifr2{
                 display: flex;
@@ -104,16 +115,17 @@
                 }
                 .p4art1{
                     margin-top: 50px;
+                    margin-right: 2rem;
                 }
                 .p4art2{
                     margin-bottom: 0px;
                 }
                 article{
                     display: grid;
-                    grid-template-columns: 40% 60%;
+                    grid-template-columns: 35% 35%;
                     justify-content: center;
-                    width: 90%;
-                    margin-left: 3rem;
+                    width: 100%;
+                    /* margin-left: 6rem; */
                 }
                 .dot-styling{
                     width: 10px;
@@ -138,7 +150,15 @@
                 }
                 .p4art123{
                     margin-top: 0px;
+                    margin-left: 2rem;
                 }
+                .ifr1{
+                height: 15rem;
+                /* width: 20rem; */
+                /* width: 20rem; */
+                /* margin: 20px; */
+                 }
+
 
             } 
     </style>
@@ -159,7 +179,11 @@
                         <div class="box-styling">
                             <a class="nav-link padd2"href="./index.html" id="color-white">Home</a>
                         </div>
-                        <div class="dot-styling">
+                        <div>
+                            <a href="./index.html">
+                                <div class="dot-styling">
+                                </div>
+                            </a>
                         </div>
                       </div>
                       
@@ -167,7 +191,11 @@
                         <div class="box-styling">
                             <a class="nav-link padd2"href="./second.html" id="color-white">Gallery</a>
                         </div>
-                        <div class="dot-styling">
+                        <div>
+                            <a href="./second.html">
+                                <div class="dot-styling">
+                                </div>
+                            </a>
                         </div>
                       </div>
 
@@ -175,7 +203,11 @@
                         <div class="box-styling">
                             <a class="nav-link padd2"href="./third.html" id="color-white">About</a>
                         </div>
-                        <div class="dot-styling">
+                        <div>
+                            <a href="./third.html">
+                                <div class="dot-styling">
+                                </div>
+                            </a>
                         </div>
                       </div>
 
@@ -184,7 +216,11 @@
                         <div class="box-styling1">
                             <a class="nav-link padd2"href="#" id="color-green">Contact</a>
                         </div>
-                        <div class="dot-styling1">
+                        <div>
+                            <a href="./four.html">
+                                <div class="dot-styling1">
+                                </div>
+                            </a>
                         </div>
                       </div>
 
@@ -208,8 +244,8 @@
                         <label for="email" id="color-white">Email</label> <br>
                         <input type="email" id="email" class="name1" required> <br> <br>
                         <label for="message" id="color-white">Message</label> <br>
-                        <textarea id="message" cols="10" rows="10" class="name1 name2"></textarea> <br>
-                        <input type="button" value="Send" class="button1">
+                        <textarea id="message" class="name1"></textarea> <br>
+                        <input type="submit" value="Send" class="button1">
                     </form>
              </div>
     
@@ -218,10 +254,13 @@
                     <div class="p4art2">
                         <div>
                             <h1 id="color-white">Contact Us</h1>
-                            <p id="color-white">
+                            <p id="color-white" style="text-align: justify;">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, 
                                 ducimus non. Dignissimos aliquid reprehenderit voluptatum? Ullam, 
-                                nesciunt et numquam voluptas.
+                                nesciunt et numquam voluptas. Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Earum modi ipsam sit omnis itaque. Consequatur 
+                                obcaecati aut explicabo eius! Hic sint eligendi iure rerum debitis 
+                                voluptates aspernatur enim neque inventore?
                             </p>
                             <p id="color-white">Email:info@company.com</p>
                             <p id="color-white">Tel: 01234-56789</p>
